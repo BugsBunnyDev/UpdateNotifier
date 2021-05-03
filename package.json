@@ -1,0 +1,23 @@
+{
+  "name": "update-notifier",
+  "version": "1.0.0",
+  "description": "Notify Roblox Update",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "CatDev",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "crypto": "^1.0.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.1.0",
+    "got": "^11.8.2",
+    "jsdom": "^16.5.3"
+  }
+}
