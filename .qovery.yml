@@ -1,0 +1,11 @@
+---
+application:
+  name: "updatenotifier"
+  project: "robloxupdatenotifier"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-updatenotifier"
+  routes:
+  - application_name: "updatenotifier"
+    paths:
+    - "/*"
